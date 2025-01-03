@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+
+        <script src="https://kit.fontawesome.com/82e65e7288.js" crossorigin="anonymous"></script>
+
+    <title>GIPHY API</title>
+</head>
+
+<body>
+    <header className='header'>
+    <h1 className='header__heading'>
+        <span className='header__logo'>GIPHY Search API</span>
+    </h1>
+</header>
+
+<div class="search">
+    <input type="text" class="input userinput" placeholder="Procurando...">
+    <button class="btn searchBtn">
+        <i class="fas fa-search"></i>
+    </button>
+</div>
+
+<div class="container gif-results">
+</div>
+<div id="giphy-search"></div>
+
+
+<footer className='footer'>
+    <a className='footer__link' href='https://developers.giphy.com/' aria-label='GIPHY Developers' target='_blank'>
+        <img className='footer__image' src='http://www.georgewpark.com/images/codepen/giphy-attribution.png'
+            alt='Powered By GIPHY' />
+    </a>
+
+    <div class="social-icons">
+        <a href="https://www.instagram.com/coding.eve/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/evelin-matos-69a69225b/" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/evematos" target="_blank"><i class="fa fa-github"></i></a>
+      </div>
+  
+      Coded by <a href="https://github.com/evematos" target="_blank">Evelin Matos</a>
+</footer>   
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
